@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Conda / venv
+.conda/
+venv/
+env/
+.env
+
+# Данные (скачиваются с Kaggle)
+*.csv
+!**/sample_submission.csv
+!**/gender_submission.csv
+
+# Артефакты (создаются при запуске ноутбуков)
+**/checkpoints/
+**/catboost_info/
+
+# IDE, OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

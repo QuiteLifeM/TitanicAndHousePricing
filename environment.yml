@@ -1,0 +1,30 @@
+name: ml_final
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - xgboost
+  - lightgbm
+  - catboost
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # удалите строку, если нет GPU
+  - pip
+  - pip:
+      - kaggle
+      - tqdm
+      - optuna
+      - shap
